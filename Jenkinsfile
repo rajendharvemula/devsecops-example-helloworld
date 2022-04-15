@@ -6,7 +6,7 @@ import java.net.URL
 pipeline {
     agent none
     tools {
-        maven 'Maven 3.3.9' 
+        maven 'Maven 3.8.5' 
     }
     options {
         timeout(time: 1, unit: 'DAYS')
