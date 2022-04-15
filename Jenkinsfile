@@ -5,6 +5,9 @@ import java.net.URL
 
 pipeline {
     agent none
+    tools {
+        maven 'Maven_3.5.2' 
+    }
     options {
         timeout(time: 1, unit: 'DAYS')
         disableConcurrentBuilds()
